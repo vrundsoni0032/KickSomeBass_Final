@@ -1,0 +1,87 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!319 &31900000
+AvatarMask:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_Name: AvatarMask_Player_LowerBody
+  m_Mask: 00000000010000000100000000000000000000000100000001000000010000000100000001000000010000000100000001000000
+  m_Elements:
+  - m_Path: 
+    m_Weight: 1
+  - m_Path: Jim
+    m_Weight: 1
+  - m_Path: JimRigPelvis
+    m_Weight: 1
+  - m_Path: JimRigPelvis/JimRigLegL1
+    m_Weight: 1
+  - m_Path: JimRigPelvis/JimRigLegL1/JimRigLegL2
+    m_Weight: 1
+  - m_Path: JimRigPelvis/JimRigLegL1/JimRigLegL2/JimRigLegLAnkle
+    m_Weight: 1
+  - m_Path: JimRigPelvis/JimRigLegL1/JimRigLegL2/JimRigLegLAnkle/JimRigLegLDigit11
+    m_Weight: 1
+  - m_Path: JimRigPelvis/JimRigLegR1
+    m_Weight: 1
+  - m_Path: JimRigPelvis/JimRigLegR1/JimRigLegR2
+    m_Weight: 1
+  - m_Path: JimRigPelvis/JimRigLegR1/JimRigLegR2/JimRigLegRAnkle
+    m_Weight: 1
+  - m_Path: JimRigPelvis/JimRigLegR1/JimRigLegR2/JimRigLegRAnkle/JimRigLegRDigit11
+    m_Weight: 1
+  - m_Path: JimRigPelvis/JimRigSpine1
+    m_Weight: 1
+  - m_Path: JimRigPelvis/JimRigSpine1/JimRigSpine2
+    m_Weight: 1
+  - m_Path: JimRigPelvis/JimRigSpine1/JimRigSpine2/JimRigChest
+    m_Weight: 1
+  - m_Path: JimRigPelvis/JimRigSpine1/JimRigSpine2/JimRigChest/JimRigArmRCollarbone
+    m_Weight: 1
+  - m_Path: JimRigPelvis/JimRigSpine1/JimRigSpine2/JimRigChest/JimRigArmRCollarbone/JimRigArmR1
+    m_Weight: 1
+  - m_Path: JimRigPelvis/JimRigSpine1/JimRigSpine2/JimRigChest/JimRigArmRCollarbone/JimRigArmR1/JimRigArmR2
+    m_Weight: 1
+  - m_Path: JimRigPelvis/JimRigSpine1/JimRigSpine2/JimRigChest/JimRigArmRCollarbone/JimRigArmR1/JimRigArmR2/JimRigArmRPalm
+    m_Weight: 1
+  - m_Path: JimRigPelvis/JimRigSpine1/JimRigSpine2/JimRigChest/JimRigArmRCollarbone/JimRigArmR1/JimRigArmR2/JimRigArmRPalm/JimRigArmRDigit11
+    m_Weight: 1
+  - m_Path: JimRigPelvis/JimRigSpine1/JimRigSpine2/JimRigChest/JimRigArmRCollarbone/JimRigArmR1/JimRigArmR2/JimRigArmRPalm/JimRigArmRDigit11/JimRigArmRDigit12
+    m_Weight: 1
+  - m_Path: JimRigPelvis/JimRigSpine1/JimRigSpine2/JimRigChest/JimRigArmRCollarbone/JimRigArmR1/JimRigArmR2/JimRigArmRPalm/JimRigArmRDigit11/JimRigArmRDigit12/JimRigArmRDigit13
+    m_Weight: 1
+  - m_Path: JimRigPelvis/JimRigSpine1/JimRigSpine2/JimRigChest/JimRigArmRCollarbone/JimRigArmR1/JimRigArmR2/JimRigArmRPalm/JimRigArmRDigit21
+    m_Weight: 1
+  - m_Path: JimRigPelvis/JimRigSpine1/JimRigSpine2/JimRigChest/JimRigArmRCollarbone/JimRigArmR1/JimRigArmR2/JimRigArmRPalm/JimRigArmRDigit21/JimRigArmRDigit22
+    m_Weight: 1
+  - m_Path: JimRigPelvis/JimRigSpine1/JimRigSpine2/JimRigChest/JimRigArmRCollarbone/JimRigArmR1/JimRigArmR2/JimRigArmRPalm/JimRigArmRDigit21/JimRigArmRDigit22/JimRigArmRDigit23
+    m_Weight: 1
+  - m_Path: JimRigPelvis/JimRigSpine1/JimRigSpine2/JimRigChest/JimRigArmRCollarbone/JimRigArmR1/JimRigArmR2/JimRigArmRPalm/JimRigArmRDigit21/JimRigArmRDigit22/JimRigArmRDigit23/JimRigArmRDigit24
+    m_Weight: 1
+  - m_Path: JimRigPelvis/JimRigSpine1/JimRigSpine2/JimRigChest/JimRigLArmCollarbone
+    m_Weight: 1
+  - m_Path: JimRigPelvis/JimRigSpine1/JimRigSpine2/JimRigChest/JimRigLArmCollarbone/JimRigLArm1
+    m_Weight: 1
+  - m_Path: JimRigPelvis/JimRigSpine1/JimRigSpine2/JimRigChest/JimRigLArmCollarbone/JimRigLArm1/JimRigLArm2
+    m_Weight: 1
+  - m_Path: JimRigPelvis/JimRigSpine1/JimRigSpine2/JimRigChest/JimRigLArmCollarbone/JimRigLArm1/JimRigLArm2/JimRigLArmPalm
+    m_Weight: 1
+  - m_Path: JimRigPelvis/JimRigSpine1/JimRigSpine2/JimRigChest/JimRigLArmCollarbone/JimRigLArm1/JimRigLArm2/JimRigLArmPalm/JimRigLArmDigit11
+    m_Weight: 1
+  - m_Path: JimRigPelvis/JimRigSpine1/JimRigSpine2/JimRigChest/JimRigLArmCollarbone/JimRigLArm1/JimRigLArm2/JimRigLArmPalm/JimRigLArmDigit11/JimRigLArmDigit12
+    m_Weight: 1
+  - m_Path: JimRigPelvis/JimRigSpine1/JimRigSpine2/JimRigChest/JimRigLArmCollarbone/JimRigLArm1/JimRigLArm2/JimRigLArmPalm/JimRigLArmDigit11/JimRigLArmDigit12/JimRigLArmDigit13
+    m_Weight: 1
+  - m_Path: JimRigPelvis/JimRigSpine1/JimRigSpine2/JimRigChest/JimRigLArmCollarbone/JimRigLArm1/JimRigLArm2/JimRigLArmPalm/JimRigLArmDigit21
+    m_Weight: 1
+  - m_Path: JimRigPelvis/JimRigSpine1/JimRigSpine2/JimRigChest/JimRigLArmCollarbone/JimRigLArm1/JimRigLArm2/JimRigLArmPalm/JimRigLArmDigit21/JimRigLArmDigit22
+    m_Weight: 1
+  - m_Path: JimRigPelvis/JimRigSpine1/JimRigSpine2/JimRigChest/JimRigLArmCollarbone/JimRigLArm1/JimRigLArm2/JimRigLArmPalm/JimRigLArmDigit21/JimRigLArmDigit22/JimRigLArmDigit23
+    m_Weight: 1
+  - m_Path: JimRigPelvis/JimRigSpine1/JimRigSpine2/JimRigChest/JimRigLArmCollarbone/JimRigLArm1/JimRigLArm2/JimRigLArmPalm/JimRigLArmDigit21/JimRigLArmDigit22/JimRigLArmDigit23/JimRigLArmDigit24
+    m_Weight: 1
+  - m_Path: JimRigPelvis/JimRigSpine1/JimRigSpine2/JimRigChest/JimRigNeck
+    m_Weight: 1
+  - m_Path: JimRigPelvis/JimRigSpine1/JimRigSpine2/JimRigChest/JimRigNeck/JimRigHead
+    m_Weight: 1

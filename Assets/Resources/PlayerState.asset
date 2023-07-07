@@ -1,0 +1,35 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 26563f9a994539e4cbee5fa4269a30b4, type: 3}
+  m_Name: PlayerState
+  m_EditorClassIdentifier: 
+  PlayerLevel: 2
+  SkillPoints: 3
+  ExperiencePoints: 125
+  MaxExperiencePoints: 200
+  m_experienceGainPercent: 100
+  InventoryItems: []
+  LoadoutItems: []
+  FishBucks: 650
+  PlayerMapSpawnPosition: {x: 22.23543, y: 0.14627218, z: -17.559732}
+  PlayerMapSpawnLookRotation: {x: 0.9953555, y: 0, z: 0.09626746}
+  CurrentPlayerStoryEvent: 010101000000000000000100000001000000
+  MaxHealth: 100
+  MaxStamina: 100
+  MaxSpeed: 10
+  MaxStrength: 100
+  ReducedDamage: 0
+  AbilityList:
+  - Punch
+  - Dash
+  - BootThrow
+  - StaminaGain

@@ -1,0 +1,101 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 4e08645c7c0eedd42815c61be4acdd9a, type: 3}
+  m_Name: KSB_SoundManager
+  m_EditorClassIdentifier: 
+  m_Sounds:
+  - Name: ButtonPop
+    Clip: {fileID: 8300000, guid: 2565108b2433f414ab1d9e7147906866, type: 3}
+    Volume: 1
+    Pitch: 1
+    Length: 0.144
+    isLoop: 0
+    isMusic: 0
+    isMute: 0
+    Priority: 0
+  - Name: OverworldMusic
+    Clip: {fileID: 8300000, guid: 8a3f033b32a2b914088ac544db1852d2, type: 3}
+    Volume: 1
+    Pitch: 1
+    Length: 143.31744
+    isLoop: 1
+    isMusic: 1
+    isMute: 0
+    Priority: 0
+  - Name: FightStart
+    Clip: {fileID: 8300000, guid: 5c63a94f053c31948b489fc3cd4627ce, type: 3}
+    Volume: 1
+    Pitch: 1
+    Length: 39.312
+    isLoop: 1
+    isMusic: 1
+    isMute: 0
+    Priority: 0
+  - Name: FightSwitch
+    Clip: {fileID: 8300000, guid: 6874a6e69b790b6448f981fea4e9268c, type: 3}
+    Volume: 0
+    Pitch: 1
+    Length: 13.656
+    isLoop: 0
+    isMusic: 1
+    isMute: 0
+    Priority: 0
+  - Name: FightSecond
+    Clip: {fileID: 8300000, guid: 84b42977b6b9b6940b502646840001e2, type: 3}
+    Volume: 1
+    Pitch: 1
+    Length: 23.664
+    isLoop: 0
+    isMusic: 1
+    isMute: 0
+    Priority: 0
+  - Name: PlayerPunch
+    Clip: {fileID: 8300000, guid: 8f347c2d75655a444a1d340d311947af, type: 3}
+    Volume: 1
+    Pitch: 1
+    Length: 0.223875
+    isLoop: 0
+    isMusic: 0
+    isMute: 0
+    Priority: 0
+  - Name: Jump
+    Clip: {fileID: 8300000, guid: 7a1b38c982a39a646b05793a77df856a, type: 3}
+    Volume: 1
+    Pitch: 1
+    Length: 0.41916665
+    isLoop: 0
+    isMusic: 0
+    isMute: 0
+    Priority: 0
+  - Name: LevelUp
+    Clip: {fileID: 8300000, guid: 321dff1650e933b49969b118c0353386, type: 3}
+    Volume: 1
+    Pitch: 1
+    Length: 0.9404082
+    isLoop: 0
+    isMusic: 0
+    isMute: 0
+    Priority: 0
+  - Name: Underwater
+    Clip: {fileID: 8300000, guid: edd7246e925ba8140b2fc37ff313030a, type: 3}
+    Volume: 1
+    Pitch: 1
+    Length: 117.21964
+    isLoop: 0
+    isMusic: 1
+    isMute: 0
+    Priority: 0
+  MasterVolume: 0.64627576
+  SfxVolume: 0.67154175
+  MusicVolume: 0.72234106
+  MusicToggle: 0
+  SfxToggle: 0

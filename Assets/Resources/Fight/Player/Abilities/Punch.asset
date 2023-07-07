@@ -1,0 +1,24 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: e958209afa14acc439e129a63abde63c, type: 3}
+  m_Name: Punch
+  m_EditorClassIdentifier: 
+  Name: Punch
+  Range: 1.2
+  Damage: 4
+  StaminaCost: 2.5
+  Direction: {x: -0.1943962, y: 0.13321039, z: -0.971836}
+  prfb_actionSphere: {fileID: 7819309751974720932, guid: 2a9b5adde97209148a49c2c514b9a459, type: 3}
+  FXData:
+    projectleParticleEffect: {fileID: 0}
+    surfaceParticleEffect: {fileID: 0}
+    sfx: {fileID: 0}

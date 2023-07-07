@@ -1,0 +1,25 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 9d606d9751bc2444198447fd0ce28fac, type: 3}
+  m_Name: FT_TutorialCoreData
+  m_EditorClassIdentifier: 
+  FightIndex: 0
+  Player: {fileID: 221020159967840597, guid: bb5fa1a999cad4146b5d3f70332f6f96, type: 3}
+  AI: {fileID: 20901447098219862, guid: 32f51c22186fea149b73693a51ffea21, type: 3}
+  Arena: {fileID: 5289944154208379732, guid: b7feaecaf598e6646b263e3927874d3e, type: 3}
+  abilityRegistry: {fileID: 11400000, guid: 8ef07c7828f956a4aabdbf3b551375d4, type: 2}
+  WinXpPoints: 75
+  LoseXpPoints: 50
+  WinSkillPoints: 3
+  LoseSkillPoints: 1
+  WinFishBucks: 200
+  LoseFishBucks: 75

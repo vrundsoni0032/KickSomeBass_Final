@@ -1,0 +1,24 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 77b29f8eed10c31479288ac5b73856d9, type: 3}
+  m_Name: SpinThrow
+  m_EditorClassIdentifier: 
+  Name: SpinThrow
+  Range: 0
+  Damage: 35
+  StaminaCost: 60
+  Direction: {x: 0, y: 0, z: 0}
+  FXData:
+    m_projectleParticleEffect: {fileID: 0}
+    m_surfaceParticleEffect: {fileID: 0}
+    m_sfx: {fileID: 0}
+  m_cinematicClip: {fileID: 11400000, guid: 1915002309c755a4f8979a05d00bc608, type: 2}

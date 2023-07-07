@@ -1,0 +1,2 @@
+To maintain the empty folder structure during the git commit.
+Please remove it once files are added.

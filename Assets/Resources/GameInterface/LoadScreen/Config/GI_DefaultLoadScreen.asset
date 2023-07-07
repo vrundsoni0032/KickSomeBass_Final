@@ -1,0 +1,24 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 0d16b588ed17ea845baccbd21a653686, type: 3}
+  m_Name: GI_DefaultLoadScreen
+  m_EditorClassIdentifier: 
+  m_loadScreens:
+  - {fileID: 21300000, guid: 52afae9997971c24bbf316d8692949a5, type: 3}
+  - {fileID: 21300000, guid: a88d1be49c948774f8fc5591db1a5360, type: 3}
+  m_RandomizeLoadScreens: 1
+  m_ShowTip: 1
+  m_hints:
+  - Game Tip 01
+  - Game Tip 02
+  m_RandomizeHints: 1
+  m_autoSkipOnLoad: 0

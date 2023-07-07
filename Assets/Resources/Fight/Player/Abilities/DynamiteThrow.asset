@@ -1,0 +1,24 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 3cebbdd145ea7a646adfa7400e7f1c8d, type: 3}
+  m_Name: DynamiteThrow
+  m_EditorClassIdentifier: 
+  Name: DynamiteThrow
+  Range: 5
+  Damage: 20
+  StaminaCost: 0
+  Direction: {x: -0.9981267, y: 0.05528383, z: 0.026208822}
+  prfb_actionSphere: {fileID: 4880656248541525681, guid: f85ee2be443bbd84b891b93e9a7619d9, type: 3}
+  FXData:
+    projectleParticleEffect: {fileID: 0}
+    surfaceParticleEffect: {fileID: 5938840340022708089, guid: 5cce8c8a78771ed478a7ee000b031ad4, type: 3}
+    sfx: {fileID: 0}

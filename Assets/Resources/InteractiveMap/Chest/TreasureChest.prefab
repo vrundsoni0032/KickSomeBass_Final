@@ -1,0 +1,156 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!65 &5726505585871188528
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2755850083032592085}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Size: {x: 0.63, y: 0.8, z: 0.73}
+  m_Center: {x: 0.0012607165, y: -0.00000002250857, z: 0.4846849}
+--- !u!1 &8114937008587493935
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 6377272050247299747}
+  - component: {fileID: 976035201911515821}
+  - component: {fileID: 6774324193567756073}
+  m_Layer: 0
+  m_Name: TreasureChest
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &6377272050247299747
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8114937008587493935}
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: 0, y: -0.229, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children:
+  - {fileID: 5197581413590730337}
+  m_Father: {fileID: 0}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!135 &976035201911515821
+SphereCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8114937008587493935}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 1
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Radius: 1.75
+  m_Center: {x: 0, y: 0.5, z: 0}
+--- !u!114 &6774324193567756073
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8114937008587493935}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 2ad9dc1cd0ac5e345b4cddea4a891cb9, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_TreasureType: 1
+  m_TreasureItem:
+    Name: Dynamite
+    Price: 0
+    Image: {fileID: 21300000, guid: fe95bf0625c4dbd4ca3373510ce39c62, type: 3}
+    Description: 'Explodable!
+
+'
+    UIObject: {fileID: 0}
+    Quantity: 1
+  m_TreasureFishBucks: 0
+  ChestItem: {fileID: 0}
+--- !u!1001 &5740750029933699466
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 6377272050247299747}
+    m_Modifications:
+    - target: {fileID: -8679921383154817045, guid: 49709d2994808884aba856f61cc2e5de, type: 3}
+      propertyPath: m_RootOrder
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 49709d2994808884aba856f61cc2e5de, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: -0.33772564
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 49709d2994808884aba856f61cc2e5de, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 0.7193149
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 49709d2994808884aba856f61cc2e5de, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 0.027325911
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 49709d2994808884aba856f61cc2e5de, type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 0.7071068
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 49709d2994808884aba856f61cc2e5de, type: 3}
+      propertyPath: m_LocalRotation.x
+      value: -0.7071068
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 49709d2994808884aba856f61cc2e5de, type: 3}
+      propertyPath: m_LocalRotation.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 49709d2994808884aba856f61cc2e5de, type: 3}
+      propertyPath: m_LocalRotation.z
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 49709d2994808884aba856f61cc2e5de, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 49709d2994808884aba856f61cc2e5de, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 49709d2994808884aba856f61cc2e5de, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: -3790930341378391711, guid: 49709d2994808884aba856f61cc2e5de, type: 3}
+      propertyPath: m_Materials.Array.data[0]
+      value: 
+      objectReference: {fileID: 2100000, guid: 32c130075b5ae8640a02246bd623ee2b, type: 2}
+    - target: {fileID: 919132149155446097, guid: 49709d2994808884aba856f61cc2e5de, type: 3}
+      propertyPath: m_Name
+      value: Mesh
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: 49709d2994808884aba856f61cc2e5de, type: 3}
+--- !u!4 &5197581413590730337 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: -8679921383154817045, guid: 49709d2994808884aba856f61cc2e5de, type: 3}
+  m_PrefabInstance: {fileID: 5740750029933699466}
+  m_PrefabAsset: {fileID: 0}
+--- !u!1 &2755850083032592085 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: -1615241198314614945, guid: 49709d2994808884aba856f61cc2e5de, type: 3}
+  m_PrefabInstance: {fileID: 5740750029933699466}
+  m_PrefabAsset: {fileID: 0}

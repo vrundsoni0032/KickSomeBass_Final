@@ -1,0 +1,603 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1 &4425500234485473586
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 3149261849876633553}
+  - component: {fileID: 3875815755971600457}
+  - component: {fileID: 5682306148524840296}
+  - component: {fileID: 1905571213135049221}
+  - component: {fileID: 3923835398279777015}
+  - component: {fileID: 4280097472379356186}
+  m_Layer: 0
+  m_Name: MamaDuck
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &3149261849876633553
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 4425500234485473586}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 22.68802, y: 0.7448361, z: -9.774092}
+  m_LocalScale: {x: 2.0258696, y: 2.0258696, z: 2.0258696}
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!33 &3875815755971600457
+MeshFilter:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 4425500234485473586}
+  m_Mesh: {fileID: 2041801366508349309, guid: ca063aef4efc26b42b07f2f99dec846c, type: 3}
+--- !u!23 &5682306148524840296
+MeshRenderer:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 4425500234485473586}
+  m_Enabled: 1
+  m_CastShadows: 1
+  m_ReceiveShadows: 1
+  m_DynamicOccludee: 1
+  m_MotionVectors: 1
+  m_LightProbeUsage: 1
+  m_ReflectionProbeUsage: 1
+  m_RayTracingMode: 2
+  m_RayTraceProcedural: 0
+  m_RenderingLayerMask: 1
+  m_RendererPriority: 0
+  m_Materials:
+  - {fileID: 2100000, guid: 41d91a39c81694f4ba48999bd2c4aec1, type: 2}
+  m_StaticBatchInfo:
+    firstSubMesh: 0
+    subMeshCount: 0
+  m_StaticBatchRoot: {fileID: 0}
+  m_ProbeAnchor: {fileID: 0}
+  m_LightProbeVolumeOverride: {fileID: 0}
+  m_ScaleInLightmap: 1
+  m_ReceiveGI: 1
+  m_PreserveUVs: 0
+  m_IgnoreNormalsForChartDetection: 0
+  m_ImportantGI: 0
+  m_StitchLightmapSeams: 1
+  m_SelectedEditorRenderState: 3
+  m_MinimumChartSize: 4
+  m_AutoUVMaxDistance: 0.5
+  m_AutoUVMaxAngle: 89
+  m_LightmapParameters: {fileID: 0}
+  m_SortingLayerID: 0
+  m_SortingLayer: 0
+  m_SortingOrder: 0
+  m_AdditionalVertexStreams: {fileID: 0}
+--- !u!135 &1905571213135049221
+SphereCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 4425500234485473586}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Radius: 2.47
+  m_Center: {x: 0, y: -0.000000029802322, z: 0}
+--- !u!114 &3923835398279777015
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 4425500234485473586}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: a57447bf83e7c5548b15f9100f2773c2, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+--- !u!114 &4280097472379356186
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 4425500234485473586}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 2d469733724989049a4a8e11dcb47b71, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_name: Ducky
+  m_Image: {fileID: 21300000, guid: 3362cb4161e31be4f90f36ed9147c9b0, type: 3}
+  m_randomizeSet: 0
+  m_dialogueSets:
+  - bRandomizeDialogues: 1
+    Dialogues:
+    - m_statement: Quack
+      m_rightChoice: Hello?
+      m_RightAction:
+        m_PersistentCalls:
+          m_Calls:
+          - m_Target: {fileID: 4280097472379356186}
+            m_TargetAssemblyTypeName: InteractiveMap.DialogueSystem.LinearDialogueDriver,
+              InteractiveMap
+            m_MethodName: EndConversation
+            m_Mode: 1
+            m_Arguments:
+              m_ObjectArgument: {fileID: 0}
+              m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+              m_IntArgument: 0
+              m_FloatArgument: 0
+              m_StringArgument: 
+              m_BoolArgument: 0
+            m_CallState: 2
+      m_showLeftChoice: 1
+      m_leftChoice: Uh... Quack?
+      m_LeftAction:
+        m_PersistentCalls:
+          m_Calls:
+          - m_Target: {fileID: 4280097472379356186}
+            m_TargetAssemblyTypeName: InteractiveMap.DialogueSystem.LinearDialogueDriver,
+              InteractiveMap
+            m_MethodName: EndConversation
+            m_Mode: 1
+            m_Arguments:
+              m_ObjectArgument: {fileID: 0}
+              m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+              m_IntArgument: 0
+              m_FloatArgument: 0
+              m_StringArgument: 
+              m_BoolArgument: 0
+            m_CallState: 2
+    - m_statement: Quack
+      m_rightChoice: Is that all you can say?
+      m_RightAction:
+        m_PersistentCalls:
+          m_Calls:
+          - m_Target: {fileID: 4280097472379356186}
+            m_TargetAssemblyTypeName: InteractiveMap.DialogueSystem.LinearDialogueDriver,
+              InteractiveMap
+            m_MethodName: EndConversation
+            m_Mode: 1
+            m_Arguments:
+              m_ObjectArgument: {fileID: 0}
+              m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+              m_IntArgument: 0
+              m_FloatArgument: 0
+              m_StringArgument: 
+              m_BoolArgument: 0
+            m_CallState: 2
+      m_showLeftChoice: 1
+      m_leftChoice: Quack!
+      m_LeftAction:
+        m_PersistentCalls:
+          m_Calls:
+          - m_Target: {fileID: 4280097472379356186}
+            m_TargetAssemblyTypeName: InteractiveMap.DialogueSystem.LinearDialogueDriver,
+              InteractiveMap
+            m_MethodName: EndConversation
+            m_Mode: 1
+            m_Arguments:
+              m_ObjectArgument: {fileID: 0}
+              m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+              m_IntArgument: 0
+              m_FloatArgument: 0
+              m_StringArgument: 
+              m_BoolArgument: 0
+            m_CallState: 2
+    - m_statement: Quack
+      m_rightChoice: Why am I talking to a rubber duck?
+      m_RightAction:
+        m_PersistentCalls:
+          m_Calls:
+          - m_Target: {fileID: 4280097472379356186}
+            m_TargetAssemblyTypeName: InteractiveMap.DialogueSystem.LinearDialogueDriver,
+              InteractiveMap
+            m_MethodName: EndConversation
+            m_Mode: 1
+            m_Arguments:
+              m_ObjectArgument: {fileID: 0}
+              m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+              m_IntArgument: 0
+              m_FloatArgument: 0
+              m_StringArgument: 
+              m_BoolArgument: 0
+            m_CallState: 2
+      m_showLeftChoice: 1
+      m_leftChoice: Quack?
+      m_LeftAction:
+        m_PersistentCalls:
+          m_Calls:
+          - m_Target: {fileID: 4280097472379356186}
+            m_TargetAssemblyTypeName: InteractiveMap.DialogueSystem.LinearDialogueDriver,
+              InteractiveMap
+            m_MethodName: EndConversation
+            m_Mode: 1
+            m_Arguments:
+              m_ObjectArgument: {fileID: 0}
+              m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+              m_IntArgument: 0
+              m_FloatArgument: 0
+              m_StringArgument: 
+              m_BoolArgument: 0
+            m_CallState: 2
+  - bRandomizeDialogues: 0
+    Dialogues:
+    - m_statement: Hello good sir!
+      m_rightChoice: Hello?
+      m_RightAction:
+        m_PersistentCalls:
+          m_Calls:
+          - m_Target: {fileID: 4280097472379356186}
+            m_TargetAssemblyTypeName: InteractiveMap.DialogueSystem.LinearDialogueDriver,
+              InteractiveMap
+            m_MethodName: ShowNextDialogue
+            m_Mode: 1
+            m_Arguments:
+              m_ObjectArgument: {fileID: 0}
+              m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+              m_IntArgument: 0
+              m_FloatArgument: 0
+              m_StringArgument: 
+              m_BoolArgument: 0
+            m_CallState: 2
+      m_showLeftChoice: 1
+      m_leftChoice: What happened to "Quack"
+      m_LeftAction:
+        m_PersistentCalls:
+          m_Calls:
+          - m_Target: {fileID: 4280097472379356186}
+            m_TargetAssemblyTypeName: InteractiveMap.DialogueSystem.LinearDialogueDriver,
+              InteractiveMap
+            m_MethodName: ShowNextDialogue
+            m_Mode: 1
+            m_Arguments:
+              m_ObjectArgument: {fileID: 0}
+              m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+              m_IntArgument: 0
+              m_FloatArgument: 0
+              m_StringArgument: 
+              m_BoolArgument: 0
+            m_CallState: 2
+    - m_statement: Please do forgive my earlier lack of coversational skills, I was
+        too scared to speak, what with that nasty fish swimming around my water
+      m_rightChoice: Well, the fish is gone now. Can I get your name?
+      m_RightAction:
+        m_PersistentCalls:
+          m_Calls:
+          - m_Target: {fileID: 4280097472379356186}
+            m_TargetAssemblyTypeName: InteractiveMap.DialogueSystem.LinearDialogueDriver,
+              InteractiveMap
+            m_MethodName: ShowNextDialogue
+            m_Mode: 1
+            m_Arguments:
+              m_ObjectArgument: {fileID: 0}
+              m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+              m_IntArgument: 0
+              m_FloatArgument: 0
+              m_StringArgument: 
+              m_BoolArgument: 0
+            m_CallState: 2
+      m_showLeftChoice: 0
+      m_leftChoice: What happened to "Quack"
+      m_LeftAction:
+        m_PersistentCalls:
+          m_Calls:
+          - m_Target: {fileID: 4280097472379356186}
+            m_TargetAssemblyTypeName: InteractiveMap.DialogueSystem.LinearDialogueDriver,
+              InteractiveMap
+            m_MethodName: ShowNextDialogue
+            m_Mode: 1
+            m_Arguments:
+              m_ObjectArgument: {fileID: 0}
+              m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+              m_IntArgument: 0
+              m_FloatArgument: 0
+              m_StringArgument: 
+              m_BoolArgument: 0
+            m_CallState: 2
+    - m_statement: My goodness, where are my manners, the name is Rubber T. Duckington,
+        but most jsut call me Ducky
+      m_rightChoice: Nice to meet you Ducky
+      m_RightAction:
+        m_PersistentCalls:
+          m_Calls:
+          - m_Target: {fileID: 4280097472379356186}
+            m_TargetAssemblyTypeName: InteractiveMap.DialogueSystem.LinearDialogueDriver,
+              InteractiveMap
+            m_MethodName: ShowNextDialogue
+            m_Mode: 1
+            m_Arguments:
+              m_ObjectArgument: {fileID: 0}
+              m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+              m_IntArgument: 0
+              m_FloatArgument: 0
+              m_StringArgument: 
+              m_BoolArgument: 0
+            m_CallState: 2
+      m_showLeftChoice: 1
+      m_leftChoice: Thats a fancy name for an overgrown bath toy
+      m_LeftAction:
+        m_PersistentCalls:
+          m_Calls:
+          - m_Target: {fileID: 4280097472379356186}
+            m_TargetAssemblyTypeName: InteractiveMap.DialogueSystem.LinearDialogueDriver,
+              InteractiveMap
+            m_MethodName: ShowNextDialogue
+            m_Mode: 1
+            m_Arguments:
+              m_ObjectArgument: {fileID: 0}
+              m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+              m_IntArgument: 0
+              m_FloatArgument: 0
+              m_StringArgument: 
+              m_BoolArgument: 0
+            m_CallState: 2
+    - m_statement: I must thank you Jim for saving not only me from that floundery
+        feind, but also for saving Junior here. That water devil took the rest of
+        my kids, and he's all I got left
+      m_rightChoice: Just doing my job
+      m_RightAction:
+        m_PersistentCalls:
+          m_Calls:
+          - m_Target: {fileID: 4280097472379356186}
+            m_TargetAssemblyTypeName: InteractiveMap.DialogueSystem.LinearDialogueDriver,
+              InteractiveMap
+            m_MethodName: ShowNextDialogue
+            m_Mode: 1
+            m_Arguments:
+              m_ObjectArgument: {fileID: 0}
+              m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+              m_IntArgument: 0
+              m_FloatArgument: 0
+              m_StringArgument: 
+              m_BoolArgument: 0
+            m_CallState: 2
+      m_showLeftChoice: 1
+      m_leftChoice: How did you know my name was Jim
+      m_LeftAction:
+        m_PersistentCalls:
+          m_Calls:
+          - m_Target: {fileID: 4280097472379356186}
+            m_TargetAssemblyTypeName: InteractiveMap.DialogueSystem.LinearDialogueDriver,
+              InteractiveMap
+            m_MethodName: ShowNextDialogue
+            m_Mode: 1
+            m_Arguments:
+              m_ObjectArgument: {fileID: 0}
+              m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+              m_IntArgument: 0
+              m_FloatArgument: 0
+              m_StringArgument: 
+              m_BoolArgument: 0
+            m_CallState: 2
+    - m_statement: You should be given a proper hero's reward, how about it? I have
+        a few fishbucks I can offer, it isnt much, but you deserve it
+      m_rightChoice: the satisfaction of knowing you are safe is enough
+      m_RightAction:
+        m_PersistentCalls:
+          m_Calls:
+          - m_Target: {fileID: 4280097472379356186}
+            m_TargetAssemblyTypeName: InteractiveMap.DialogueSystem.LinearDialogueDriver,
+              InteractiveMap
+            m_MethodName: EndConversation
+            m_Mode: 1
+            m_Arguments:
+              m_ObjectArgument: {fileID: 0}
+              m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+              m_IntArgument: 0
+              m_FloatArgument: 0
+              m_StringArgument: 
+              m_BoolArgument: 0
+            m_CallState: 2
+          - m_Target: {fileID: 4280097472379356186}
+            m_TargetAssemblyTypeName: InteractiveMap.DialogueSystem.LinearDialogueDriver,
+              InteractiveMap
+            m_MethodName: RewardXP
+            m_Mode: 3
+            m_Arguments:
+              m_ObjectArgument: {fileID: 0}
+              m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+              m_IntArgument: 75
+              m_FloatArgument: 0
+              m_StringArgument: 
+              m_BoolArgument: 0
+            m_CallState: 2
+          - m_Target: {fileID: 4280097472379356186}
+            m_TargetAssemblyTypeName: InteractiveMap.DialogueSystem.LinearDialogueDriver,
+              InteractiveMap
+            m_MethodName: SetNewDialogueSet
+            m_Mode: 3
+            m_Arguments:
+              m_ObjectArgument: {fileID: 0}
+              m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+              m_IntArgument: 2
+              m_FloatArgument: 0
+              m_StringArgument: 
+              m_BoolArgument: 0
+            m_CallState: 2
+      m_showLeftChoice: 1
+      m_leftChoice: I'm never one to turn down free stuff!
+      m_LeftAction:
+        m_PersistentCalls:
+          m_Calls:
+          - m_Target: {fileID: 4280097472379356186}
+            m_TargetAssemblyTypeName: InteractiveMap.DialogueSystem.LinearDialogueDriver,
+              InteractiveMap
+            m_MethodName: EndConversation
+            m_Mode: 1
+            m_Arguments:
+              m_ObjectArgument: {fileID: 0}
+              m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+              m_IntArgument: 0
+              m_FloatArgument: 0
+              m_StringArgument: 
+              m_BoolArgument: 0
+            m_CallState: 2
+          - m_Target: {fileID: 4280097472379356186}
+            m_TargetAssemblyTypeName: InteractiveMap.DialogueSystem.LinearDialogueDriver,
+              InteractiveMap
+            m_MethodName: RewardCoins
+            m_Mode: 3
+            m_Arguments:
+              m_ObjectArgument: {fileID: 0}
+              m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+              m_IntArgument: 25
+              m_FloatArgument: 0
+              m_StringArgument: 
+              m_BoolArgument: 0
+            m_CallState: 2
+          - m_Target: {fileID: 4280097472379356186}
+            m_TargetAssemblyTypeName: InteractiveMap.DialogueSystem.LinearDialogueDriver,
+              InteractiveMap
+            m_MethodName: SetNewDialogueSet
+            m_Mode: 3
+            m_Arguments:
+              m_ObjectArgument: {fileID: 0}
+              m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+              m_IntArgument: 2
+              m_FloatArgument: 0
+              m_StringArgument: 
+              m_BoolArgument: 0
+            m_CallState: 2
+  - bRandomizeDialogues: 1
+    Dialogues:
+    - m_statement: What wonderful weather, no clouds in the sky for the 10,000th
+        day in a row
+      m_rightChoice: Truly lovely
+      m_RightAction:
+        m_PersistentCalls:
+          m_Calls:
+          - m_Target: {fileID: 4280097472379356186}
+            m_TargetAssemblyTypeName: InteractiveMap.DialogueSystem.LinearDialogueDriver,
+              InteractiveMap
+            m_MethodName: EndConversation
+            m_Mode: 1
+            m_Arguments:
+              m_ObjectArgument: {fileID: 0}
+              m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+              m_IntArgument: 0
+              m_FloatArgument: 0
+              m_StringArgument: 
+              m_BoolArgument: 0
+            m_CallState: 2
+      m_showLeftChoice: 1
+      m_leftChoice: Its a bit uncanny, but nice
+      m_LeftAction:
+        m_PersistentCalls:
+          m_Calls:
+          - m_Target: {fileID: 4280097472379356186}
+            m_TargetAssemblyTypeName: InteractiveMap.DialogueSystem.LinearDialogueDriver,
+              InteractiveMap
+            m_MethodName: EndConversation
+            m_Mode: 1
+            m_Arguments:
+              m_ObjectArgument: {fileID: 0}
+              m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+              m_IntArgument: 0
+              m_FloatArgument: 0
+              m_StringArgument: 
+              m_BoolArgument: 0
+            m_CallState: 2
+    - m_statement: Did you know that Junior here can play the banjo? Would you like
+        to listen
+      m_rightChoice: I gotta go
+      m_RightAction:
+        m_PersistentCalls:
+          m_Calls:
+          - m_Target: {fileID: 4280097472379356186}
+            m_TargetAssemblyTypeName: InteractiveMap.DialogueSystem.LinearDialogueDriver,
+              InteractiveMap
+            m_MethodName: EndConversation
+            m_Mode: 1
+            m_Arguments:
+              m_ObjectArgument: {fileID: 0}
+              m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+              m_IntArgument: 0
+              m_FloatArgument: 0
+              m_StringArgument: 
+              m_BoolArgument: 0
+            m_CallState: 2
+      m_showLeftChoice: 1
+      m_leftChoice: '*Run Away*'
+      m_LeftAction:
+        m_PersistentCalls:
+          m_Calls:
+          - m_Target: {fileID: 4280097472379356186}
+            m_TargetAssemblyTypeName: InteractiveMap.DialogueSystem.LinearDialogueDriver,
+              InteractiveMap
+            m_MethodName: EndConversation
+            m_Mode: 1
+            m_Arguments:
+              m_ObjectArgument: {fileID: 0}
+              m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+              m_IntArgument: 0
+              m_FloatArgument: 0
+              m_StringArgument: 
+              m_BoolArgument: 0
+            m_CallState: 2
+    - m_statement: Thank you again Jim for saving my little family
+      m_rightChoice: It was nothing
+      m_RightAction:
+        m_PersistentCalls:
+          m_Calls:
+          - m_Target: {fileID: 4280097472379356186}
+            m_TargetAssemblyTypeName: InteractiveMap.DialogueSystem.LinearDialogueDriver,
+              InteractiveMap
+            m_MethodName: EndConversation
+            m_Mode: 1
+            m_Arguments:
+              m_ObjectArgument: {fileID: 0}
+              m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+              m_IntArgument: 0
+              m_FloatArgument: 0
+              m_StringArgument: 
+              m_BoolArgument: 0
+            m_CallState: 2
+      m_showLeftChoice: 1
+      m_leftChoice: All in a days work
+      m_LeftAction:
+        m_PersistentCalls:
+          m_Calls:
+          - m_Target: {fileID: 4280097472379356186}
+            m_TargetAssemblyTypeName: InteractiveMap.DialogueSystem.LinearDialogueDriver,
+              InteractiveMap
+            m_MethodName: EndConversation
+            m_Mode: 1
+            m_Arguments:
+              m_ObjectArgument: {fileID: 0}
+              m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+              m_IntArgument: 0
+              m_FloatArgument: 0
+              m_StringArgument: 
+              m_BoolArgument: 0
+            m_CallState: 2
+  m_onTriggerAction:
+    m_PersistentCalls:
+      m_Calls:
+      - m_Target: {fileID: 3923835398279777015}
+        m_TargetAssemblyTypeName: InteractiveMap.NPC.IM_MamaDuck, InteractiveMap
+        m_MethodName: SetAppropriateDialogueSet
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2

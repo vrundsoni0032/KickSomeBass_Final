@@ -1,0 +1,17 @@
+{
+    "name": "Public",
+    "rootNamespace": "",
+    "references": [
+        "GUID:ebd4971256b6dce47bd7cc53a0806d7a",
+        "GUID:6055be8ebefd69e48b49212b09b47b2f"
+    ],
+    "includePlatforms": [],
+    "excludePlatforms": [],
+    "allowUnsafeCode": true,
+    "overrideReferences": false,
+    "precompiledReferences": [],
+    "autoReferenced": true,
+    "defineConstraints": [],
+    "versionDefines": [],
+    "noEngineReferences": false
+}

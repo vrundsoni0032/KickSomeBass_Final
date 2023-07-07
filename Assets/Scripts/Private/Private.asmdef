@@ -1,0 +1,19 @@
+{
+    "name": "Private",
+    "rootNamespace": "",
+    "references": [
+        "GUID:2f0d79e2966ca224d8d85c92c1bee386",
+        "GUID:60fa1dfb1f61d284ea9c378a30fb89ab",
+        "GUID:7732e8ccfd32b2540a10b30284c9e7df",
+        "GUID:2bf44b8cbfa7c4d4296fbec8faf2b463"
+    ],
+    "includePlatforms": [],
+    "excludePlatforms": [],
+    "allowUnsafeCode": false,
+    "overrideReferences": false,
+    "precompiledReferences": [],
+    "autoReferenced": true,
+    "defineConstraints": [],
+    "versionDefines": [],
+    "noEngineReferences": false
+}

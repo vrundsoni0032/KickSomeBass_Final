@@ -1,0 +1,532 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1 &4156415293202340324
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 6803186701784948943}
+  - component: {fileID: 6327846208075578578}
+  - component: {fileID: 8188060382703685124}
+  m_Layer: 12
+  m_Name: choky
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 4294967295
+  m_IsActive: 0
+--- !u!4 &6803186701784948943
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 4156415293202340324}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children:
+  - {fileID: 1611505588015099932}
+  m_Father: {fileID: 0}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!135 &6327846208075578578
+SphereCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 4156415293202340324}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 1
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Radius: 2.3
+  m_Center: {x: 0, y: 0, z: 0}
+--- !u!114 &8188060382703685124
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 4156415293202340324}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 2d469733724989049a4a8e11dcb47b71, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_name: Choky
+  m_Image: {fileID: 21300000, guid: 8085a26233e4c6e4f859f5a514666677, type: 3}
+  m_randomizeSet: 0
+  m_dialogueSets:
+  - bRandomizeDialogues: 0
+    Dialogues:
+    - m_statement: Hey, you are Jim, right?
+      m_rightChoice: That's right.
+      m_RightAction:
+        m_PersistentCalls:
+          m_Calls:
+          - m_Target: {fileID: 8188060382703685124}
+            m_TargetAssemblyTypeName: InteractiveMap.DialogueSystem.LinearDialogueDriver,
+              InteractiveMap
+            m_MethodName: ShowNextDialogue
+            m_Mode: 1
+            m_Arguments:
+              m_ObjectArgument: {fileID: 0}
+              m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+              m_IntArgument: 0
+              m_FloatArgument: 0
+              m_StringArgument: 
+              m_BoolArgument: 0
+            m_CallState: 2
+      m_showLeftChoice: 1
+      m_leftChoice: And here we go again.
+      m_LeftAction:
+        m_PersistentCalls:
+          m_Calls:
+          - m_Target: {fileID: 8188060382703685124}
+            m_TargetAssemblyTypeName: InteractiveMap.DialogueSystem.LinearDialogueDriver,
+              InteractiveMap
+            m_MethodName: ShowNextDialogue
+            m_Mode: 1
+            m_Arguments:
+              m_ObjectArgument: {fileID: 0}
+              m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+              m_IntArgument: 0
+              m_FloatArgument: 0
+              m_StringArgument: 
+              m_BoolArgument: 0
+            m_CallState: 2
+    - m_statement: I'm Choky, Socky's little stick brother. Socky told me all about
+        you. I will guide you on the fight maneuver.
+      m_rightChoice: Things are getting serious, huh?
+      m_RightAction:
+        m_PersistentCalls:
+          m_Calls:
+          - m_Target: {fileID: 8188060382703685124}
+            m_TargetAssemblyTypeName: InteractiveMap.DialogueSystem.LinearDialogueDriver,
+              InteractiveMap
+            m_MethodName: ShowNextDialogue
+            m_Mode: 1
+            m_Arguments:
+              m_ObjectArgument: {fileID: 0}
+              m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+              m_IntArgument: 0
+              m_FloatArgument: 0
+              m_StringArgument: 
+              m_BoolArgument: 0
+            m_CallState: 2
+      m_showLeftChoice: 1
+      m_leftChoice: But you are a sock on a stick.
+      m_LeftAction:
+        m_PersistentCalls:
+          m_Calls:
+          - m_Target: {fileID: 8188060382703685124}
+            m_TargetAssemblyTypeName: InteractiveMap.DialogueSystem.LinearDialogueDriver,
+              InteractiveMap
+            m_MethodName: ShowNextDialogue
+            m_Mode: 1
+            m_Arguments:
+              m_ObjectArgument: {fileID: 0}
+              m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+              m_IntArgument: 0
+              m_FloatArgument: 0
+              m_StringArgument: 
+              m_BoolArgument: 0
+            m_CallState: 2
+    - m_statement: The navigation and camera is the same. 'W', 'A', 'S' and 'D' to
+        move around and mouse to control the camera.
+      m_rightChoice: And now comes the good part...
+      m_RightAction:
+        m_PersistentCalls:
+          m_Calls:
+          - m_Target: {fileID: 8188060382703685124}
+            m_TargetAssemblyTypeName: InteractiveMap.DialogueSystem.LinearDialogueDriver,
+              InteractiveMap
+            m_MethodName: ShowNextDialogue
+            m_Mode: 1
+            m_Arguments:
+              m_ObjectArgument: {fileID: 0}
+              m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+              m_IntArgument: 0
+              m_FloatArgument: 0
+              m_StringArgument: 
+              m_BoolArgument: 0
+            m_CallState: 2
+      m_showLeftChoice: 1
+      m_leftChoice: Again with alphabets...and at least spell them in the correct
+        order.
+      m_LeftAction:
+        m_PersistentCalls:
+          m_Calls:
+          - m_Target: {fileID: 8188060382703685124}
+            m_TargetAssemblyTypeName: InteractiveMap.DialogueSystem.LinearDialogueDriver,
+              InteractiveMap
+            m_MethodName: ShowNextDialogue
+            m_Mode: 1
+            m_Arguments:
+              m_ObjectArgument: {fileID: 0}
+              m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+              m_IntArgument: 0
+              m_FloatArgument: 0
+              m_StringArgument: 
+              m_BoolArgument: 0
+            m_CallState: 2
+    - m_statement: Left mouse click to punch, hold right mouse click to gain stamina,
+        left shift for dash and space for jump.
+      m_rightChoice: Thats a lot to remember!
+      m_RightAction:
+        m_PersistentCalls:
+          m_Calls:
+          - m_Target: {fileID: 8188060382703685124}
+            m_TargetAssemblyTypeName: InteractiveMap.DialogueSystem.LinearDialogueDriver,
+              InteractiveMap
+            m_MethodName: ShowNextDialogue
+            m_Mode: 1
+            m_Arguments:
+              m_ObjectArgument: {fileID: 0}
+              m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+              m_IntArgument: 0
+              m_FloatArgument: 0
+              m_StringArgument: 
+              m_BoolArgument: 0
+            m_CallState: 2
+      m_showLeftChoice: 1
+      m_leftChoice: What clicks, where is all this coming from?
+      m_LeftAction:
+        m_PersistentCalls:
+          m_Calls:
+          - m_Target: {fileID: 8188060382703685124}
+            m_TargetAssemblyTypeName: InteractiveMap.DialogueSystem.LinearDialogueDriver,
+              InteractiveMap
+            m_MethodName: ShowNextDialogue
+            m_Mode: 1
+            m_Arguments:
+              m_ObjectArgument: {fileID: 0}
+              m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+              m_IntArgument: 0
+              m_FloatArgument: 0
+              m_StringArgument: 
+              m_BoolArgument: 0
+            m_CallState: 2
+    - m_statement: Make sure to keep a special eye on the health and stamina bar.
+        You will need stamina to perform any maneuvers in a fight.
+      m_rightChoice: Thank you for all the help.
+      m_RightAction:
+        m_PersistentCalls:
+          m_Calls:
+          - m_Target: {fileID: 8188060382703685124}
+            m_TargetAssemblyTypeName: InteractiveMap.DialogueSystem.LinearDialogueDriver,
+              InteractiveMap
+            m_MethodName: ShowNextDialogue
+            m_Mode: 1
+            m_Arguments:
+              m_ObjectArgument: {fileID: 0}
+              m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+              m_IntArgument: 0
+              m_FloatArgument: 0
+              m_StringArgument: 
+              m_BoolArgument: 0
+            m_CallState: 2
+      m_showLeftChoice: 1
+      m_leftChoice: What bars? what clicks? someone, anyone please help.
+      m_LeftAction:
+        m_PersistentCalls:
+          m_Calls:
+          - m_Target: {fileID: 8188060382703685124}
+            m_TargetAssemblyTypeName: InteractiveMap.DialogueSystem.LinearDialogueDriver,
+              InteractiveMap
+            m_MethodName: ShowNextDialogue
+            m_Mode: 1
+            m_Arguments:
+              m_ObjectArgument: {fileID: 0}
+              m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+              m_IntArgument: 0
+              m_FloatArgument: 0
+              m_StringArgument: 
+              m_BoolArgument: 0
+            m_CallState: 2
+    - m_statement: The fight will be best of three. And to enter go near the sign
+        post and whisper the magical words or pressing 'E' also works.
+      m_rightChoice: I feel I'm all set to serve that fish right.
+      m_RightAction:
+        m_PersistentCalls:
+          m_Calls:
+          - m_Target: {fileID: 8188060382703685124}
+            m_TargetAssemblyTypeName: InteractiveMap.DialogueSystem.LinearDialogueDriver,
+              InteractiveMap
+            m_MethodName: EndConversation
+            m_Mode: 1
+            m_Arguments:
+              m_ObjectArgument: {fileID: 0}
+              m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+              m_IntArgument: 0
+              m_FloatArgument: 0
+              m_StringArgument: 
+              m_BoolArgument: 0
+            m_CallState: 2
+          - m_Target: {fileID: 8188060382703685124}
+            m_TargetAssemblyTypeName: InteractiveMap.DialogueSystem.LinearDialogueDriver,
+              InteractiveMap
+            m_MethodName: EnableGameObject
+            m_Mode: 2
+            m_Arguments:
+              m_ObjectArgument: {fileID: 0}
+              m_ObjectArgumentAssemblyTypeName: UnityEngine.GameObject, UnityEngine
+              m_IntArgument: 0
+              m_FloatArgument: 0
+              m_StringArgument: 
+              m_BoolArgument: 0
+            m_CallState: 2
+      m_showLeftChoice: 0
+      m_leftChoice: 
+      m_LeftAction:
+        m_PersistentCalls:
+          m_Calls: []
+  m_onTriggerAction:
+    m_PersistentCalls:
+      m_Calls: []
+--- !u!1 &6086095905736283672
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 480833143089990627}
+  - component: {fileID: 4373484322323191271}
+  - component: {fileID: 5260534946488017623}
+  m_Layer: 0
+  m_Name: Mesh
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 4294967295
+  m_IsActive: 1
+--- !u!4 &480833143089990627
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 6086095905736283672}
+  m_LocalRotation: {x: 0.58160776, y: -0.58160776, z: -0.4021597, w: -0.4021597}
+  m_LocalPosition: {x: 0, y: 0.545, z: 0.19}
+  m_LocalScale: {x: 0.7613381, y: 1.0658734, z: 0.837472}
+  m_Children: []
+  m_Father: {fileID: 1611505588015099932}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 290.675, y: 180, z: -90}
+--- !u!33 &4373484322323191271
+MeshFilter:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 6086095905736283672}
+  m_Mesh: {fileID: -1374943706379426325, guid: 26a52e7661a4c2f44a9936eb65aa3b93, type: 3}
+--- !u!23 &5260534946488017623
+MeshRenderer:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 6086095905736283672}
+  m_Enabled: 1
+  m_CastShadows: 1
+  m_ReceiveShadows: 1
+  m_DynamicOccludee: 1
+  m_MotionVectors: 1
+  m_LightProbeUsage: 1
+  m_ReflectionProbeUsage: 1
+  m_RayTracingMode: 2
+  m_RayTraceProcedural: 0
+  m_RenderingLayerMask: 1
+  m_RendererPriority: 0
+  m_Materials:
+  - {fileID: 2100000, guid: d910ef6d22ea9744d926d5b810c243b2, type: 2}
+  m_StaticBatchInfo:
+    firstSubMesh: 0
+    subMeshCount: 0
+  m_StaticBatchRoot: {fileID: 0}
+  m_ProbeAnchor: {fileID: 0}
+  m_LightProbeVolumeOverride: {fileID: 0}
+  m_ScaleInLightmap: 1
+  m_ReceiveGI: 1
+  m_PreserveUVs: 0
+  m_IgnoreNormalsForChartDetection: 0
+  m_ImportantGI: 0
+  m_StitchLightmapSeams: 1
+  m_SelectedEditorRenderState: 3
+  m_MinimumChartSize: 4
+  m_AutoUVMaxDistance: 0.5
+  m_AutoUVMaxAngle: 89
+  m_LightmapParameters: {fileID: 0}
+  m_SortingLayerID: 0
+  m_SortingLayer: 0
+  m_SortingOrder: 0
+  m_AdditionalVertexStreams: {fileID: 0}
+--- !u!1 &6467761068666427369
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 2462064746701460369}
+  - component: {fileID: 2754619200097156708}
+  - component: {fileID: 5918275710694949897}
+  m_Layer: 0
+  m_Name: Stick
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 4294967295
+  m_IsActive: 1
+--- !u!4 &2462064746701460369
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 6467761068666427369}
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 0.1, y: 0.7, z: 0.1}
+  m_Children: []
+  m_Father: {fileID: 1611505588015099932}
+  m_RootOrder: 1
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!23 &2754619200097156708
+MeshRenderer:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 6467761068666427369}
+  m_Enabled: 1
+  m_CastShadows: 1
+  m_ReceiveShadows: 1
+  m_DynamicOccludee: 1
+  m_MotionVectors: 1
+  m_LightProbeUsage: 1
+  m_ReflectionProbeUsage: 1
+  m_RayTracingMode: 2
+  m_RayTraceProcedural: 0
+  m_RenderingLayerMask: 1
+  m_RendererPriority: 0
+  m_Materials:
+  - {fileID: 7973274649560148516, guid: ca063aef4efc26b42b07f2f99dec846c, type: 3}
+  m_StaticBatchInfo:
+    firstSubMesh: 0
+    subMeshCount: 0
+  m_StaticBatchRoot: {fileID: 0}
+  m_ProbeAnchor: {fileID: 0}
+  m_LightProbeVolumeOverride: {fileID: 0}
+  m_ScaleInLightmap: 1
+  m_ReceiveGI: 1
+  m_PreserveUVs: 0
+  m_IgnoreNormalsForChartDetection: 0
+  m_ImportantGI: 0
+  m_StitchLightmapSeams: 1
+  m_SelectedEditorRenderState: 3
+  m_MinimumChartSize: 4
+  m_AutoUVMaxDistance: 0.5
+  m_AutoUVMaxAngle: 89
+  m_LightmapParameters: {fileID: 0}
+  m_SortingLayerID: 0
+  m_SortingLayer: 0
+  m_SortingOrder: 0
+  m_AdditionalVertexStreams: {fileID: 0}
+--- !u!33 &5918275710694949897
+MeshFilter:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 6467761068666427369}
+  m_Mesh: {fileID: 10206, guid: 0000000000000000e000000000000000, type: 0}
+--- !u!1 &8649318856910811111
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 1611505588015099932}
+  - component: {fileID: 3943964806425232703}
+  - component: {fileID: 5114156356358012581}
+  - component: {fileID: 4549932054860163528}
+  m_Layer: 0
+  m_Name: SockyMesh
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 4294967295
+  m_IsActive: 1
+--- !u!4 &1611505588015099932
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8649318856910811111}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children:
+  - {fileID: 480833143089990627}
+  - {fileID: 2462064746701460369}
+  m_Father: {fileID: 6803186701784948943}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &3943964806425232703
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8649318856910811111}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 567dea3db1ad334439c4af46b073bc9c, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_jumpForce: 3.5
+  m_jumpInterval: 1.25
+--- !u!54 &5114156356358012581
+Rigidbody:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8649318856910811111}
+  serializedVersion: 2
+  m_Mass: 1
+  m_Drag: 0
+  m_AngularDrag: 0.05
+  m_UseGravity: 1
+  m_IsKinematic: 0
+  m_Interpolate: 0
+  m_Constraints: 122
+  m_CollisionDetection: 0
+--- !u!136 &4549932054860163528
+CapsuleCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8649318856910811111}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  m_Radius: 0.26
+  m_Height: 1.88
+  m_Direction: 1
+  m_Center: {x: 0, y: 0.24, z: 0.08}
